@@ -1,0 +1,103 @@
+I, [2017-06-12T06:05:09.516321 #17844]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2017-06-12T06:05:09.518533 #17844]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2017-06-12T06:05:09.518698 #17844]  INFO -- default-ubuntu-1604: Preparing dna.json
+I, [2017-06-12T06:05:09.519241 #17844]  INFO -- default-ubuntu-1604: Resolving cookbook dependencies with Berkshelf 5.6.4...
+I, [2017-06-12T06:05:14.434690 #17844]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
+I, [2017-06-12T06:05:14.437945 #17844]  INFO -- default-ubuntu-1604: Preparing validation.pem
+I, [2017-06-12T06:05:14.439880 #17844]  INFO -- default-ubuntu-1604: Preparing client.rb
+I, [2017-06-12T06:05:14.717903 #17844]  INFO -- default-ubuntu-1604: -----> Chef Omnibus installation detected (install only if missing)
+I, [2017-06-12T06:05:14.753716 #17844]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2017-06-12T06:05:18.214544 #17844]  INFO -- default-ubuntu-1604: Starting Chef Client, version 13.1.31
+I, [2017-06-12T06:05:19.221058 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:18+00:00] WARN: Plugin Network: unable to detect ipaddress
+I, [2017-06-12T06:05:19.252834 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:18+00:00] WARN: Plugin Network: unable to detect ipaddress
+I, [2017-06-12T06:05:20.160672 #17844]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["apache::default"]
+I, [2017-06-12T06:05:20.262962 #17844]  INFO -- default-ubuntu-1604: Synchronizing Cookbooks:
+I, [2017-06-12T06:05:20.392532 #17844]  INFO -- default-ubuntu-1604:   - apache (0.1.0)
+I, [2017-06-12T06:05:20.402013 #17844]  INFO -- default-ubuntu-1604: Installing Cookbook Gems:
+I, [2017-06-12T06:05:20.402166 #17844]  INFO -- default-ubuntu-1604: Compiling Cookbooks...
+I, [2017-06-12T06:05:20.402209 #17844]  INFO -- default-ubuntu-1604: 
+I, [2017-06-12T06:05:20.402248 #17844]  INFO -- default-ubuntu-1604: ================================================================================
+I, [2017-06-12T06:05:20.402288 #17844]  INFO -- default-ubuntu-1604: Recipe Compile Error in /tmp/kitchen/cache/cookbooks/apache/recipes/default.rb
+I, [2017-06-12T06:05:20.402327 #17844]  INFO -- default-ubuntu-1604: ================================================================================
+I, [2017-06-12T06:05:20.402364 #17844]  INFO -- default-ubuntu-1604: 
+I, [2017-06-12T06:05:20.402401 #17844]  INFO -- default-ubuntu-1604: SyntaxError
+I, [2017-06-12T06:05:20.402438 #17844]  INFO -- default-ubuntu-1604: -----------
+I, [2017-06-12T06:05:20.402475 #17844]  INFO -- default-ubuntu-1604: /tmp/kitchen/cache/cookbooks/apache/recipes/default.rb:16: unterminated string meets end of file
+I, [2017-06-12T06:05:20.402513 #17844]  INFO -- default-ubuntu-1604: /tmp/kitchen/cache/cookbooks/apache/recipes/default.rb:16: syntax error, unexpected end-of-input, expecting keyword_end
+I, [2017-06-12T06:05:20.402550 #17844]  INFO -- default-ubuntu-1604: 
+I, [2017-06-12T06:05:20.413570 #17844]  INFO -- default-ubuntu-1604: System Info:
+I, [2017-06-12T06:05:20.413687 #17844]  INFO -- default-ubuntu-1604: ------------
+I, [2017-06-12T06:05:20.413729 #17844]  INFO -- default-ubuntu-1604: chef_version=13.1.31
+I, [2017-06-12T06:05:20.413796 #17844]  INFO -- default-ubuntu-1604: platform=ubuntu
+I, [2017-06-12T06:05:20.413837 #17844]  INFO -- default-ubuntu-1604: platform_version=16.04
+I, [2017-06-12T06:05:20.413874 #17844]  INFO -- default-ubuntu-1604: ruby=ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-linux]
+I, [2017-06-12T06:05:20.413924 #17844]  INFO -- default-ubuntu-1604: program_name=chef-client worker: ppid=298;start=06:05:18;
+I, [2017-06-12T06:05:20.413963 #17844]  INFO -- default-ubuntu-1604: executable=/opt/chef/bin/chef-client
+I, [2017-06-12T06:05:20.414000 #17844]  INFO -- default-ubuntu-1604: 
+I, [2017-06-12T06:05:20.414035 #17844]  INFO -- default-ubuntu-1604: 
+I, [2017-06-12T06:05:20.414178 #17844]  INFO -- default-ubuntu-1604: Running handlers:
+I, [2017-06-12T06:05:20.414229 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] ERROR: Running exception handlers
+I, [2017-06-12T06:05:20.414285 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] ERROR: Running exception handlers
+I, [2017-06-12T06:05:20.414326 #17844]  INFO -- default-ubuntu-1604: Running handlers complete
+I, [2017-06-12T06:05:20.414364 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] ERROR: Exception handlers complete
+I, [2017-06-12T06:05:20.414402 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] ERROR: Exception handlers complete
+I, [2017-06-12T06:05:20.414445 #17844]  INFO -- default-ubuntu-1604: Chef Client failed. 0 resources updated in 02 seconds
+I, [2017-06-12T06:05:20.419830 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2017-06-12T06:05:20.419913 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2017-06-12T06:05:20.419955 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2017-06-12T06:05:20.420010 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2017-06-12T06:05:20.420053 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] ERROR: /tmp/kitchen/cache/cookbooks/apache/recipes/default.rb:16: unterminated string meets end of file
+I, [2017-06-12T06:05:20.420091 #17844]  INFO -- default-ubuntu-1604: /tmp/kitchen/cache/cookbooks/apache/recipes/default.rb:16: syntax error, unexpected end-of-input, expecting keyword_end
+I, [2017-06-12T06:05:20.420129 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] ERROR: /tmp/kitchen/cache/cookbooks/apache/recipes/default.rb:16: unterminated string meets end of file
+I, [2017-06-12T06:05:20.420166 #17844]  INFO -- default-ubuntu-1604: /tmp/kitchen/cache/cookbooks/apache/recipes/default.rb:16: syntax error, unexpected end-of-input, expecting keyword_end
+I, [2017-06-12T06:05:20.629138 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+I, [2017-06-12T06:05:20.651425 #17844]  INFO -- default-ubuntu-1604: [2017-06-12T06:05:20+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2017-06-12T06:05:20.681441 #17844] ERROR -- default-ubuntu-1604: Converge failed on instance <default-ubuntu-1604>.
+E, [2017-06-12T06:05:20.681739 #17844] ERROR -- default-ubuntu-1604: ------Exception-------
+E, [2017-06-12T06:05:20.681850 #17844] ERROR -- default-ubuntu-1604: Class: Kitchen::ActionFailed
+E, [2017-06-12T06:05:20.681892 #17844] ERROR -- default-ubuntu-1604: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2017-06-12T06:05:20.681924 #17844] ERROR -- default-ubuntu-1604: ----------------------
+E, [2017-06-12T06:05:20.681954 #17844] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2017-06-12T06:05:20.682149 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-06-12T06:05:20.682193 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-06-12T06:05:20.682255 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-06-12T06:05:20.682301 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-06-12T06:05:20.682345 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-06-12T06:05:20.682385 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-06-12T06:05:20.682416 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-06-12T06:05:20.682446 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-06-12T06:05:20.682475 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-06-12T06:05:20.682505 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-06-12T06:05:20.682534 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-06-12T06:05:20.682562 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-06-12T06:05:20.682591 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-06-12T06:05:20.682620 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-06-12T06:05:20.682649 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-06-12T06:05:20.682695 #17844] ERROR -- default-ubuntu-1604: ----End Backtrace-----
+E, [2017-06-12T06:05:20.682727 #17844] ERROR -- default-ubuntu-1604: ---Nested Exception---
+E, [2017-06-12T06:05:20.682782 #17844] ERROR -- default-ubuntu-1604: Class: Kitchen::Transport::SshFailed
+E, [2017-06-12T06:05:20.682822 #17844] ERROR -- default-ubuntu-1604: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2017-06-12T06:05:20.682860 #17844] ERROR -- default-ubuntu-1604: ----------------------
+E, [2017-06-12T06:05:20.682888 #17844] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2017-06-12T06:05:20.682916 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2017-06-12T06:05:20.682944 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2017-06-12T06:05:20.682973 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:384:in `block in converge_action'
+E, [2017-06-12T06:05:20.683001 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-06-12T06:05:20.683059 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-06-12T06:05:20.683099 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/2.3.0/benchmark.rb:293:in `measure'
+E, [2017-06-12T06:05:20.683153 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-06-12T06:05:20.683188 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:380:in `converge_action'
+E, [2017-06-12T06:05:20.683246 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-06-12T06:05:20.683311 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-06-12T06:05:20.683355 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-06-12T06:05:20.683386 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-06-12T06:05:20.683415 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-06-12T06:05:20.683444 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-06-12T06:05:20.683491 #17844] ERROR -- default-ubuntu-1604: /opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/test-kitchen-1.16.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-06-12T06:05:20.683523 #17844] ERROR -- default-ubuntu-1604: ----End Backtrace-----

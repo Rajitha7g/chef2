@@ -1,0 +1,9 @@
+I, [2017-06-12T06:05:20.695518 #17844]  INFO -- default-centos-73: -----> Converging <default-centos-73>...
+I, [2017-06-12T06:05:20.697242 #17844]  INFO -- default-centos-73: Preparing files for transfer
+I, [2017-06-12T06:05:20.697860 #17844]  INFO -- default-centos-73: Preparing dna.json
+I, [2017-06-12T06:05:20.698798 #17844]  INFO -- default-centos-73: Resolving cookbook dependencies with Berkshelf 5.6.4...
+I, [2017-06-12T06:05:26.480842 #17844]  INFO -- default-centos-73: Removing non-cookbook files before transfer
+I, [2017-06-12T06:05:26.490557 #17844]  INFO -- default-centos-73: Preparing validation.pem
+I, [2017-06-12T06:05:26.492545 #17844]  INFO -- default-centos-73: Preparing client.rb
+I, [2017-06-12T06:05:29.268501 #17844]  INFO -- default-centos-73: -----> Chef Omnibus installation detected (install only if missing)
+I, [2017-06-12T06:05:31.434532 #17844]  INFO -- default-centos-73: Transferring files to <default-centos-73>
